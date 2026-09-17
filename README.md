@@ -45,6 +45,12 @@ Navigate to `/swagger` (e.g. `https://localhost:7230/swagger`) for interactive A
 
 With the application running, open NumberToWords/NumberToWords.http in Visual Studio (built-in .http support) or Visual Studio Code (with the REST Client extension) and use the Send Request link above the request.
 
+## Troubleshooting
+
+### `dotnet dev-certs https --trust` fails (macOS)
+
+If trusting the local HTTPS certificate fails, run the application on the `http` profile instead as functionally identical and no certificate required: `dotnet run --project NumberToWords/NumberToWords.csproj --launch-profile http`. Then open `http://localhost:5001` instead of the https URL.
+
 ## Further Documentation
 
 - [Design.md](Design.md) - the chosen approach and alternatives considered.
