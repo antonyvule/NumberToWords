@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="NumberToWords.Tests/NumberToWords.Tests.csproj" />
+  <Project Path="NumberToWords/NumberToWords.csproj" />
+</Solution>

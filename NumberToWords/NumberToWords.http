@@ -1,0 +1,10 @@
+@NumberToWords_HostAddress = https://localhost:7230
+
+### Valid amount - matches the example
+POST {{NumberToWords_HostAddress}}/convertNumberToWords
+Content-Type: application/json
+Accept: application/json
+
+{
+    "number": 123.45
+}
