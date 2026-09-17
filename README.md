@@ -8,7 +8,7 @@ A web application that converts a decimal money amount into its English words sp
 
 ## Project Structure
 
-- **NumberToWords.slnx**
+- **NumberToWords.sln**
   - Solution file (open in Visual Studio or Visual Studio Code or use the dotnet CLI)
 - **NumberToWords/**
   - ASP.NET Core Minimal API + Static Web UI (Bootstrap and jQuery)
